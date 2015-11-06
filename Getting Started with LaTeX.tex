@@ -7,7 +7,7 @@
 \title{Getting Started with \LaTeX: \\ 
 	\large{A Biostatistics Brown Bag Seminar}}
 \author{Nick Seewald}
-\date{6 November 2015}
+\date{6 November 2015} %\today
 
 \usepackage{amsmath, amsfonts, amssymb, graphicx, float, lipsum, hyperref}
 \usepackage[margin=1in]{geometry}
@@ -58,8 +58,9 @@
 	
 	\begin{table}[H]
 		\centering
-		\begin{tabular}{c|c}
-			\textbf{\LaTeX Command} & \textbf{Result} \\ \hline
+	        \caption{"Title of the Table"}
+		\begin{tabular}{c|c} %l:left r: right c:center
+			\textbf{\LaTeX Command} & \textbf{Result} \\ \hline %put a line after this
 			\verb|\textit{Make text Italic}| & \textit{Make text Italic} \\
 			\verb|\section{}| & Make a new section \\
 			\verb|$\sqrt{4} = 2$| & $\sqrt{4} = 2$ \\ 
@@ -132,7 +133,7 @@
 		\end{itemize}
 	\end{itemize}
 	
-	\begin{thebibliography}{99}
+	\begin{thebibliography}{99} %99 is the maximium amount of citation 
 		\bibitem{wikibooks} ``LaTeX." Wikibooks, The Free Textbook Project. 23 Jan 2015, 02:30 UTC. 5 Nov 2015, 23:10 \url{https://en.wikibooks.org/w/index.php?title=LaTeX&oldid=2757849}.
 	\end{thebibliography}
 	
